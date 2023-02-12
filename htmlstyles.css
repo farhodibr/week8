@@ -1,0 +1,36 @@
+body {
+    font-family: arial;
+    background-color: rgb(185,179,175);
+    opacity: 0.95;
+}
+
+h1 {
+    color:  rgb(81, 2, 2);
+    text-align: center;
+}
+
+.page {
+    border: rgb(13, 4, 4) solid #665544;
+    
+    background-color: #efefef;
+    padding: inherit;
+    text-align:center;
+    font-style: oblique ;
+}
+
+h3, h6 {
+    color: rgb(140, 71, 214);
+}
+
+tr {
+    color: darkgreen;
+    font-size: larger;
+}
+
+td {
+    color: rgb(34, 58, 153);
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-size-adjust:inherit;
+}

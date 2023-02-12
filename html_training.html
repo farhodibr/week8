@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <p id="demo"></p>
+    <link href="htmlstyles.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="page" id="intro">
+        <p attr>Hi! Welcome to my second page </p>
+        <p>I am still learning to get better at this.</p><br>
+        <img src="806622844_427721.jpg" title="My nephew" height="350" width="250"/><br>
+    </div>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello world";
+        const x = document.getElementById("intro");
+        const y = x.getElementsByTagName("p");
+        document.getElementById("demo").innerHTML = "The first paragraph is: " + y[0].innerHTML;
+    </script>
+</body>
+</html>
